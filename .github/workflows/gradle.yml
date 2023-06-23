@@ -2,7 +2,10 @@
 
 name: Gradle Package
 
-
+on:
+  push:
+    branches:
+      - 'master'
 jobs:
   build:
 
